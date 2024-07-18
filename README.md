@@ -79,3 +79,6 @@ Logs can be disabled by:
   "logs_on"
 ```
 
+### The flowchart of the program is located in the file: [CompanyCollector.drawio](CompanyCollector.drawio)
+
+Which one should be downloaded and opened on the page: [https://app.diagrams.net/](https://app.diagrams.net/)
