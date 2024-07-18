@@ -1,0 +1,26 @@
+{
+  "description_comment" : " - - - Config for ds-r - - -",
+  "bot_name" : "bot_dsr",
+
+  "workspace_path": "C:\\Users\\{username}\\Documents\\Company Collector",
+
+  "input_folder_path" : "C:\\Users\\{username}\\Documents\\Company Collector Data\\Input",
+  "output_folder_path" : "C:\\Users\\{username}\\Documents\\Company Collector Data\\Output",
+  "business_logs_folder_path": "C:\\Users\\{username}\\Documents\\Company Collector Data\\Business Logs",
+  "operational_logs_folder_path": "C:\\Users\\{username}\\Documents\\Company Collector Data\\Operational Logs",
+  "input_queue_name" : "queue.csv",
+  "sql_input_queue_name": "queue.db",
+
+  "one_time_program" : false,
+  "idle_time" : 120,
+  "idle_time_for_initialization" : 10,
+  "max_tries" : 3,
+
+  "logs_on": true,
+  "mail_address": "fisher46109@gmail.com",
+  "main_url" : "https://aplikacja.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/Search.aspx",
+  "waiting_for_elements_in_selenium" : 10,
+  "waiting_for_download_file" : 30,
+  "pdf_download_flag": false
+
+}

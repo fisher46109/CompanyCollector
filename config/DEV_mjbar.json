@@ -1,0 +1,25 @@
+{
+  "description_comment" : " - - - Config for mjbar - - -",
+  "bot_name" : "bot_mjbar",
+
+  "workspace_path": "C:\\Users\\{username}\\Bots\\CompanyCollector",
+
+  "input_folder_path" : "C:\\Users\\{username}\\Bots\\Bots IO\\CompanyCollector\\Input",
+  "output_folder_path" : "C:\\Users\\{username}\\Bots\\Bots IO\\CompanyCollector\\Output",
+  "business_logs_folder_path": "C:\\Users\\{username}\\Bots\\CompanyCollector\\Business Logs",
+  "operational_logs_folder_path": "C:\\Users\\{username}\\Bots\\CompanyCollector\\Operational Logs",
+  "input_queue_name" : "queue.csv",
+  "sql_input_queue_name": "queue.db",
+
+  "one_time_program" : true,
+  "idle_time" : 120,
+  "idle_time_for_initialization" : 10,
+  "max_tries" : 2,
+
+  "logs_on": true,
+  "mail_address": "mariuszbrn@gmail.com",
+  "main_url" : "https://aplikacja.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/Search.aspx",
+  "waiting_for_elements_in_selenium" : 10,
+  "waiting_for_download_file" : 30,
+  "pdf_download_flag": false
+}

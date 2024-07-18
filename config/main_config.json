@@ -1,0 +1,13 @@
+{
+  "process_name": "Company Collector",
+
+  "comment_of_host_to_environment": "Convert machine name to specify environment based on username",
+  "host_to_environment" : {
+    "MBY560" : "DEV_{username}",
+    "LENOVOG3MB" : "DEV_{username}",
+    "WOJTEK" : "DEV_{username}"
+  }
+}
+
+
+
