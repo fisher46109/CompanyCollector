@@ -14,7 +14,6 @@ def main():
     try:
         # import execution modules
         from execution.execution import execute
-        from app import app
 
         # run execution
         # all exceptions must be handled within execution main loop
@@ -34,7 +33,7 @@ def main():
             """DO NOTHING, If this doesn't work - nothing will save us..."""
     finally:
         try:
-            app.agent.send_result(output)
+            print(str(output))
         except:
             pass
 

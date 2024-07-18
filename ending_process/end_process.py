@@ -24,3 +24,5 @@ def end_process(process_status: str):
     # Close Selenium driver if oppened
     sf.quit_driver_if_opened()
 
+    app.agent.send_result(process_status)
+
